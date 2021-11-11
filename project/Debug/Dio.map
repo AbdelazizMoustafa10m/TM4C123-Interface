@@ -1,0 +1,254 @@
+******************************************************************************
+                  TI ARM Linker PC v20.2.5                     
+******************************************************************************
+>> Linked Fri Nov 12 01:29:06 2021
+
+OUTPUT FILE NAME:   <Dio.out>
+ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 000009dd
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  FLASH                 00000000   00040000  00000a5e  0003f5a2  R  X
+  SRAM                  20000000   00008000  00000214  00007dec  RW X
+
+
+SEGMENT ALLOCATION MAP
+
+run origin  load origin   length   init length attrs members
+----------  ----------- ---------- ----------- ----- -------
+00000000    00000000    00000a64   00000a64    r-x
+  00000000    00000000    0000026c   0000026c    r-- .intvecs
+  0000026c    0000026c    000007c6   000007c6    r-x .text
+  00000a38    00000a38    0000002c   0000002c    r-- .cinit
+20000000    20000000    00000214   00000000    rw-
+  20000000    20000000    00000200   00000000    rw- .stack
+  20000200    20000200    00000014   00000000    rw- .data
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.intvecs   0    00000000    0000026c     
+                  00000000    0000026c     tm4c123gh6pm_startup_ccs.obj (.intvecs)
+
+.text      0    0000026c    000007c6     
+                  0000026c    000003c8     Dio.obj (.text)
+                  00000634    000000cc     Sw.obj (.text)
+                  00000700    000000a4     Led.obj (.text)
+                  000007a4    0000009c     Mcu.obj (.text)
+                  00000840    0000009c     rtsv7M4_T_le_v4SPD16_eabi.lib : memcpy_t2.asm.obj (.text)
+                  000008dc    00000068                                   : copy_decompress_lzss.c.obj (.text:decompress:lzss:__TI_decompress_lzss)
+                  00000944    00000052     main.obj (.text)
+                  00000996    00000002     --HOLE-- [fill = 0]
+                  00000998    00000044     rtsv7M4_T_le_v4SPD16_eabi.lib : autoinit.c.obj (.text:__TI_auto_init_nobinit_nopinit:__TI_auto_init_nobinit_nopinit)
+                  000009dc    00000034                                   : boot_cortex_m.c.obj (.text:_c_int00_noargs:_c_int00_noargs)
+                  00000a10    0000000e                                   : copy_decompress_none.c.obj (.text:decompress:none:__TI_decompress_none)
+                  00000a1e    0000000c     tm4c123gh6pm_startup_ccs.obj (.text)
+                  00000a2a    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : pre_init.c.obj (.text:_system_pre_init)
+                  00000a2e    00000004                                   : exit.c.obj (.text:abort:abort)
+
+.cinit     0    00000a38    0000002c     
+                  00000a38    00000019     (.cinit..data.load) [load image, compression = lzss]
+                  00000a51    00000003     --HOLE-- [fill = 0]
+                  00000a54    00000008     (__TI_handler_table)
+                  00000a5c    00000008     (__TI_cinit_table)
+
+.init_array 
+*          0    00000000    00000000     UNINITIALIZED
+
+.data      0    20000200    00000014     UNINITIALIZED
+                  20000200    00000006     Led_Lcfg.obj (.data:gaStr_LedConfig)
+                  20000206    00000006     Sw_Lcfg.obj (.data:gaStr_SwConfig)
+                  2000020c    00000004     Led.obj (.data)
+                  20000210    00000004     Sw.obj (.data)
+
+.stack     0    20000000    00000200     UNINITIALIZED
+                  20000000    00000004     rtsv7M4_T_le_v4SPD16_eabi.lib : boot_cortex_m.c.obj (.stack)
+                  20000004    000001fc     --HOLE--
+
+__llvm_prf_cnts 
+*          0    20000000    00000000     UNINITIALIZED
+
+MODULE SUMMARY
+
+       Module                         code   ro data   rw data
+       ------                         ----   -------   -------
+    .\
+       tm4c123gh6pm_startup_ccs.obj   12     620       0      
+       main.obj                       82     0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         94     620       0      
+                                                              
+    .\HAL\Led\config\
+       Led_Lcfg.obj                   0      0         6      
+    +--+------------------------------+------+---------+---------+
+       Total:                         0      0         6      
+                                                              
+    .\HAL\Led\static\
+       Led.obj                        164    0         4      
+    +--+------------------------------+------+---------+---------+
+       Total:                         164    0         4      
+                                                              
+    .\HAL\Sw\config\
+       Sw_Lcfg.obj                    0      0         6      
+    +--+------------------------------+------+---------+---------+
+       Total:                         0      0         6      
+                                                              
+    .\HAL\Sw\static\
+       Sw.obj                         204    0         4      
+    +--+------------------------------+------+---------+---------+
+       Total:                         204    0         4      
+                                                              
+    .\MCAL\Dio\static\
+       Dio.obj                        968    0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         968    0         0      
+                                                              
+    .\MCAL\Mcu\static\
+       Mcu.obj                        156    0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         156    0         0      
+                                                              
+    C:\ti\ccs1100\ccs\tools\compiler\ti-cgt-arm_20.2.5.LTS\lib\rtsv7M4_T_le_v4SPD16_eabi.lib
+       memcpy_t2.asm.obj              156    0         0      
+       copy_decompress_lzss.c.obj     104    0         0      
+       autoinit.c.obj                 68     0         0      
+       boot_cortex_m.c.obj            52     0         0      
+       copy_decompress_none.c.obj     14     0         0      
+       exit.c.obj                     4      0         0      
+       pre_init.c.obj                 4      0         0      
+    +--+------------------------------+------+---------+---------+
+       Total:                         402    0         0      
+                                                              
+       Stack:                         0      0         512    
+       Linker Generated:              0      41        0      
+    +--+------------------------------+------+---------+---------+
+       Grand Total:                   1988   661       532    
+
+
+LINKER GENERATED COPY TABLES
+
+__TI_cinit_table @ 00000a5c records: 1, size/record: 8, table size: 8
+	.data: load addr=00000a38, load size=00000019 bytes, run addr=20000200, run size=00000014 bytes, compression=lzss
+
+
+LINKER GENERATED HANDLER TABLE
+
+__TI_handler_table @ 00000a54 records: 2, size/record: 4, table size: 8
+	index: 0, handler: __TI_decompress_lzss
+	index: 1, handler: __TI_decompress_none
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address   name                          
+-------   ----                          
+00000a2f  C$$EXIT                       
+0000043d  Dio_FlipChannel               
+000003b9  Dio_ReadChannel               
+0000051d  Dio_ResistorStateSet          
+0000026d  Dio_SetPinDirection           
+0000032f  Dio_WriteChannel              
+2000020c  Led                           
+00000701  Led_Init                      
+00000749  Led_StateSet                  
+000007a5  Mcu_Init                      
+00000819  Mcu_PeripheralClkInit         
+00000a1f  ResetISR                      
+20000210  Sw                            
+00000635  Sw_Init                       
+000006ad  Sw_StateGet                   
+20000200  __STACK_END                   
+00000200  __STACK_SIZE                  
+20000200  __STACK_TOP                   
+00000a5c  __TI_CINIT_Base               
+00000a64  __TI_CINIT_Limit              
+00000a54  __TI_Handler_Table_Base       
+00000a5c  __TI_Handler_Table_Limit      
+00000999  __TI_auto_init_nobinit_nopinit
+000008dd  __TI_decompress_lzss          
+00000a11  __TI_decompress_none          
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+00000000  __TI_static_base__            
+00000841  __aeabi_memcpy                
+00000841  __aeabi_memcpy4               
+00000841  __aeabi_memcpy8               
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+UNDEFED   __mpu_init                    
+20000000  __stack                       
+20000000  __start___llvm_prf_cnts       
+20000000  __stop___llvm_prf_cnts        
+000009dd  _c_int00_noargs               
+UNDEFED   _system_post_cinit            
+00000a2b  _system_pre_init              
+00000a2f  abort                         
+ffffffff  binit                         
+00000000  g_pfnVectors                  
+20000200  gaStr_LedConfig               
+20000206  gaStr_SwConfig                
+00000945  main                          
+00000841  memcpy                        
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address   name                          
+-------   ----                          
+00000000  __TI_static_base__            
+00000000  g_pfnVectors                  
+00000200  __STACK_SIZE                  
+0000026d  Dio_SetPinDirection           
+0000032f  Dio_WriteChannel              
+000003b9  Dio_ReadChannel               
+0000043d  Dio_FlipChannel               
+0000051d  Dio_ResistorStateSet          
+00000635  Sw_Init                       
+000006ad  Sw_StateGet                   
+00000701  Led_Init                      
+00000749  Led_StateSet                  
+000007a5  Mcu_Init                      
+00000819  Mcu_PeripheralClkInit         
+00000841  __aeabi_memcpy                
+00000841  __aeabi_memcpy4               
+00000841  __aeabi_memcpy8               
+00000841  memcpy                        
+000008dd  __TI_decompress_lzss          
+00000945  main                          
+00000999  __TI_auto_init_nobinit_nopinit
+000009dd  _c_int00_noargs               
+00000a11  __TI_decompress_none          
+00000a1f  ResetISR                      
+00000a2b  _system_pre_init              
+00000a2f  C$$EXIT                       
+00000a2f  abort                         
+00000a54  __TI_Handler_Table_Base       
+00000a5c  __TI_CINIT_Base               
+00000a5c  __TI_Handler_Table_Limit      
+00000a64  __TI_CINIT_Limit              
+20000000  __stack                       
+20000000  __start___llvm_prf_cnts       
+20000000  __stop___llvm_prf_cnts        
+20000200  __STACK_END                   
+20000200  __STACK_TOP                   
+20000200  gaStr_LedConfig               
+20000206  gaStr_SwConfig                
+2000020c  Led                           
+20000210  Sw                            
+ffffffff  __TI_pprof_out_hndl           
+ffffffff  __TI_prof_data_size           
+ffffffff  __TI_prof_data_start          
+ffffffff  __binit__                     
+ffffffff  __c_args__                    
+ffffffff  binit                         
+UNDEFED   __mpu_init                    
+UNDEFED   _system_post_cinit            
+
+[48 symbols]

@@ -1,0 +1,9 @@
+HAL/Sw/static/Sw.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/HAL/Sw/static/Sw.c
+HAL/Sw/static/Sw.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Dio/static/Dio.h
+HAL/Sw/static/Sw.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Std_Types.h
+HAL/Sw/static/Sw.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\Platform_Types.h
+HAL/Sw/static/Sw.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\Compiler.h
+HAL/Sw/static/Sw.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Dio/config/Dio_Cfg.h
+HAL/Sw/static/Sw.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Macros.h
+HAL/Sw/static/Sw.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\HAL\Sw\static\Sw.h
+HAL/Sw/static/Sw.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/HAL/Sw/config/Sw_Cfg.h

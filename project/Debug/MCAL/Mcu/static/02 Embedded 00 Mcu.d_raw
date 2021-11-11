@@ -1,0 +1,16 @@
+MCAL/Mcu/static/Mcu.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Mcu/static/Mcu.c
+MCAL/Mcu/static/Mcu.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\MCAL\Mcu\static\Mcu.h
+MCAL/Mcu/static/Mcu.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Mcu/config/Mcu_Cfg.h
+MCAL/Mcu/static/Mcu.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Tm4c123.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/stdint.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/_ti_config.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/linkage.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/_stdint40.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/stdint.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/cdefs.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/_types.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/machine/_types.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/machine/_stdint.h
+MCAL/Mcu/static/Mcu.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/_stdint.h
+MCAL/Mcu/static/Mcu.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\tm4c123gh6pm.h
+MCAL/Mcu/static/Mcu.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Macros.h

@@ -1,0 +1,19 @@
+MCAL/Dio/static/Dio.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Dio/static/Dio.c
+MCAL/Dio/static/Dio.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\MCAL\Dio\static\Dio.h
+MCAL/Dio/static/Dio.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Std_Types.h
+MCAL/Dio/static/Dio.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\Platform_Types.h
+MCAL/Dio/static/Dio.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\Compiler.h
+MCAL/Dio/static/Dio.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Dio/config/Dio_Cfg.h
+MCAL/Dio/static/Dio.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Macros.h
+MCAL/Dio/static/Dio.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Tm4c123.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/stdint.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/_ti_config.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/linkage.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/_stdint40.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/stdint.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/cdefs.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/_types.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/machine/_types.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/machine/_stdint.h
+MCAL/Dio/static/Dio.obj: C:/ti/ccs1100/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/sys/_stdint.h
+MCAL/Dio/static/Dio.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\tm4c123gh6pm.h

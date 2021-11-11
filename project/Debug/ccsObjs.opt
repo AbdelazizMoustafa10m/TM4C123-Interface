@@ -1,0 +1,1 @@
+"./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "./HAL/Led/config/Led_Lcfg.obj" "./HAL/Led/static/Led.obj" "./HAL/Sw/config/Sw_Lcfg.obj" "./HAL/Sw/static/Sw.obj" "./MCAL/Dio/static/Dio.obj" "./MCAL/Mcu/static/Mcu.obj" "../tm4c123gh6pm.cmd" -llibc.a 

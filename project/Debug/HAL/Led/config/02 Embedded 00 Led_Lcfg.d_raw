@@ -1,0 +1,9 @@
+HAL/Led/config/Led_Lcfg.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/HAL/Led/config/Led_Lcfg.c
+HAL/Led/config/Led_Lcfg.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/HAL/Led/static/Led.h
+HAL/Led/config/Led_Lcfg.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Dio/static/Dio.h
+HAL/Led/config/Led_Lcfg.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Std_Types.h
+HAL/Led/config/Led_Lcfg.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\Platform_Types.h
+HAL/Led/config/Led_Lcfg.obj: D:\02.\\ Embedded\\ systems\00.\\ Repos\TM4C123-Interface\src\Util\Compiler.h
+HAL/Led/config/Led_Lcfg.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/MCAL/Dio/config/Dio_Cfg.h
+HAL/Led/config/Led_Lcfg.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/Util/Macros.h
+HAL/Led/config/Led_Lcfg.obj: D:/02.\\ Embedded\\ systems/00.\\ Repos/TM4C123-Interface/src/HAL/Led/config/Led_Cfg.h
